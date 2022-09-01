@@ -1,0 +1,12 @@
+This project can be split into two separate tasks: binary and multi-class class classification of chest x-rays for individuals who may have been 
+diagnosed with COVID-19, viral pneumonia, bacterial pneumonia, or nothing at all. The file entitled 'two' corresponds to the binary classification 
+task of classifying a set of patients as COVID-19 positive or negative using their chest x-rays as input. For this project, I demonstrated transfer 
+learning, using VGG-16 as the base of the model and train a modified convolutional neural network to perform the task. The model achieved 100% accuracy
+on the test class with a loss value of 0.35. The runnable file for this project is entitled 'binary.ipynb.' 
+
+The second project is a multi-class classification project where patients have either been diagnosed with COVID-19, viral pneumonia, bacterial pneumonia 
+or nothing at all. For this project, I utilized transfer learning once again but to train two separate models: one built upon VGG-16 and one built upon 
+the DenseNet169 architecture. In this comparative task, I found that the DenseNet architecture performed better than the VGG-16 based model. The dataset 
+for this project is found in the file called 'all' and the runnable file is entitled 'multiclass.ipynb.' 
+
+The datasets for both projects were drawn from the larger 'Gradient Crescent' dataset hosted here: https://github.com/EXJUSTICE/GradientCrescent. 
